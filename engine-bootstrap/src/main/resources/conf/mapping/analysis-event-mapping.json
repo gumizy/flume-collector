@@ -1,0 +1,242 @@
+[
+  {
+    "from": "event_uuid",
+    "to": "uuid",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "occur_time",
+    "to": "occur_time",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "receive_time",
+    "to": "recept_time",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "protocol",
+    "to": "proto",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "event_type",
+    "to": "systype",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "event_sub_type",
+    "to": "pt_subtype",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "event_level",
+    "to": "pri",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "rule_id",
+    "to": "pt",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "dev_address",
+    "to": "dev",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "action",
+    "to": "act",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "event_name",
+    "to": "name",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "event_name",
+    "to": "event_name0",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "src_address",
+    "to": "sip",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "user_name",
+    "to": "user",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "result",
+    "to": "ret",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "dst_address",
+    "to": "dip",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "process_name",
+    "to": "dproc",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "status_code",
+    "to": "code",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "src_port",
+    "to": "sport",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "dst_port",
+    "to": "dport",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "event_content",
+    "to": "content",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "malware_file_name",
+    "to": "mal",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "mime_type",
+    "to": "mime_type",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "threat_rule_id",
+    "to": "pol",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "url",
+    "to": "uri",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "send_byte",
+    "to": "uplink_length",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "receive_byte",
+    "to": "downlink_length",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "src_mac",
+    "to": "smac",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "dst_mac",
+    "to": "dmac",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "in_if",
+    "to": "input",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "out_if",
+    "to": "output",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "send_package",
+    "to": "pkts",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "bytes",
+    "to": "bytes",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "next_hop",
+    "to": "nhop",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "tos",
+    "to": "tos",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "tcp_flags",
+    "to": "flag",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "src_mask",
+    "to": "smask",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "dst_mask",
+    "to": "dmask",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "cmd",
+    "to": "cmd",
+    "defaultValue": null,
+    "toString": true
+  },
+  {
+    "from": "session",
+    "to": "session",
+    "defaultValue": null,
+    "toString": true
+  }
+]
