@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>engine-source</artifactId>
+        <groupId>com.datacloudsec</groupId>
+        <version>1.0.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.datacloudsec</groupId>
+    <artifactId>source-ftp</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.datacloudsec</groupId>
+            <artifactId>engine-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.datacloudsec</groupId>
+            <artifactId>engine-parser</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-net</groupId>
+            <artifactId>commons-net</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.jcraft</groupId>
+            <artifactId>jsch</artifactId>
+        </dependency>
+    </dependencies>
+</project>
