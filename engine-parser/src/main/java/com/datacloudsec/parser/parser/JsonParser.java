@@ -26,7 +26,13 @@ public class JsonParser extends AbstractParserBuilder {
         String msg = matcher.group(getSourceField());
         if (StringUtils.isNotBlank(msg)) {
             msg = msg.trim();
-            JSONObject jsonObject = JSON.parseObject(msg);
+            JSONObject jsonObject = null;
+            try {
+                jsonObject = JSON.parseObject(msg);
+            } catch (Exception e) {
+                logger.error("JSON parser error ", e);
+                return;
+            }
             for (FieldParser parser : getFieldParsers()) {
                 try {
                     String mappingIdx = parser.getIndex();
