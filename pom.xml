@@ -53,6 +53,7 @@
         <gson.version>2.2.2</gson.version>
         <guava.version>18.0</guava.version>
         <guava-old.version>11.0.2</guava-old.version>
+        <guava-new.version>26.0-jre</guava-new.version>
         <hadoop.version>2.9.0</hadoop.version>
         <hbase.version>1.0.0</hbase.version>
         <hbase2.jetty.version>9.3.19.v20170502</hbase2.jetty.version>
@@ -245,7 +246,7 @@
             <dependency>
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
-                <version>${guava-old.version}</version>
+                <version>${guava-new.version}</version>
             </dependency>
             <!--gson-->
             <dependency>
