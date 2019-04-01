@@ -122,10 +122,10 @@ public class EventParserProcessor extends AbstractParserProcessor implements Con
                 event.setEventType(NO_PARSER_TYPE);
                 event.setCollectorAddress(sendHostIp);
                 event.setOriginalLog(message);
-                processEvents(event, forward);
+                processEvents(event, normalization);
             } else {
                 for (Event event : events) {
-                    processEvents(event, forward);
+                    processEvents(event, normalization);
                 }
             }
         } catch (InterruptedException e) {
@@ -138,13 +138,13 @@ public class EventParserProcessor extends AbstractParserProcessor implements Con
         return Status.READY;
     }
 
-    private void processEvents(Event event, boolean forward) {
+    private void processEvents(Event event, boolean normalization) {
         // set default values
         event.valuesDefault();
         // channel process
         ChannelProcessor processor = source.getChannelProcessor();
         if (processor != null) {
-            processor.processEvent(event, forward);
+            processor.processEvent(event, normalization);
         }
     }
 }
